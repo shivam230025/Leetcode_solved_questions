@@ -19,6 +19,7 @@ class Solution {
         
                                          
                                       // better solution
+        
         if(nums.length==0 || nums.length==1)return nums.length;
         HashSet<Integer> set= new HashSet<>();
         for(int i=0; i<nums.length; i++){
