@@ -53,7 +53,7 @@ class Solution
         int count=1;
         int endTime= activities[0][2];
         for(int i=1; i<end.length; i++){
-            if(activities[i][1] > endTime){
+            if(endTime<activities[i][1]){
                 count++;
                 endTime= activities[i][2];
             }
