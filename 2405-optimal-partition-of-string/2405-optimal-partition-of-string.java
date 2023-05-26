@@ -5,7 +5,7 @@ class Solution {
         for(int i=0; i<s.length(); i++){
             char c= s.charAt(i);
             if(set.contains(c)){
-                set= new HashSet<>();
+                set.clear();
                 set.add(c);
                 count++;
             }else set.add(c);
